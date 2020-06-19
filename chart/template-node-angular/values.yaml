@@ -17,6 +17,9 @@ fullnameOverride: ""
 service:
   type: ClusterIP
   port: 80
+  
+route:
+  enabled: false
 
 ingress:
   enabled: true
