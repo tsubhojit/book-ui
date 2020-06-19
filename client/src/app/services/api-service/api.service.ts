@@ -12,7 +12,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class ApiService {
-  API_URL = environment.ENV_API_URL ; // | 'http://localhost:8080';
+  API_URL = 'https://book-api-rail-ticket.sandbox-ocp43-one-462537-b2e73aa4eddf9dc566faa4f42ccdd306-0000.eu-gb.containers.appdomain.cloud';
   constructor(private httpClient: HttpClient) { }
 
   saveBookingData(bookingData: BookingData) {
