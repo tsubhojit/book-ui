@@ -1,0 +1,4 @@
+dependencies:
+- name: book-ui
+  version: 0.0.3
+  repository: https://artifactory-tools.sandbox-ocp43-one-462537-b2e73aa4eddf9dc566faa4f42ccdd306-0000.eu-gb.containers.appdomain.cloud/artifactory/generic-local/tcs-sandbox-team-one/
