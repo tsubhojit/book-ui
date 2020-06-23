@@ -46,6 +46,7 @@ server.listen(port, function() {
 
   logger.info(`Server listening on http://localhost:${port}`);
   console.log(`Server listening on http://localhost:${port}`);
+  console.log(`Server Started`);
 
 });
 
