@@ -3,7 +3,7 @@ global:
   tlsSecretName: sandbox-ocp43-one-462537-b2e73aa4eddf9dc566faa4f42ccdd306-0000
 
 book-ui:
-  replicaCount: 3
+  replicaCount: 1
   
   # For OpenShift set route.enabled=true
   # For Kubernetes set route.enabled=false
