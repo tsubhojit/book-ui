@@ -1,6 +1,6 @@
 global:
-  ingressSubdomain: sandbox-ocp43-one-462537-b2e73aa4eddf9dc566faa4f42ccdd306-0000.eu-gb.containers.appdomain.cloud
-  tlsSecretName: sandbox-ocp43-one-462537-b2e73aa4eddf9dc566faa4f42ccdd306-0000
+  ingressSubdomain: appdev-cloudnative-ocp43-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud
+  tlsSecretName: appdev-cloudnative-ocp43-6fb0b86391cd68c8282858623a1dddff-0000
 
 book-ui:
   replicaCount: 1
@@ -14,5 +14,5 @@ book-ui:
   # For Kubernetes set ingress.enabled=true
   ingress:
     enabled: false
-    tlsSecretName: sandbox-ocp43-one-462537-b2e73aa4eddf9dc566faa4f42ccdd306-0000
+    tlsSecretName: appdev-cloudnative-ocp43-6fb0b86391cd68c8282858623a1dddff-0000
 
