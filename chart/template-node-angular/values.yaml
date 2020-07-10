@@ -4,6 +4,7 @@
 global: {}
 
 replicaCount: 1
+logLevel: "debug"
 
 image:
   repository: replace
@@ -39,7 +40,7 @@ vcsInfo:
   repoUrl: ""
   branch: ""
 
-partOf: ""
+partOf: "rail-ticket-dev"
 
 connectsTo: "book-api"
 
