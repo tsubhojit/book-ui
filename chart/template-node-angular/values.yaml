@@ -35,6 +35,12 @@ ingress:
 
 #  tlsSecretName: ""
 
+vcsInfo:
+  repoUrl: ""
+  branch: ""
+
 partOf: "rail-ticket-dev"
 
 connectsTo: "book-api"
+
+runtime: js
