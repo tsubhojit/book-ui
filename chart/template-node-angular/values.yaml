@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 global: {}
 
-apiHost: "book-api"
+#serviceUrl: "book-api.rail-ticket-dev:80"
 
 replicaCount: 1
 
@@ -45,4 +45,4 @@ partOf: "rail-ticket-dev"
 
 connectsTo: "book-api"
 
-runtime: js
+runtime: nodejs
