@@ -34,3 +34,7 @@ ingress:
   path: "/"
 
 #  tlsSecretName: ""
+
+partOf: "rail-ticket-dev"
+
+connectsTo: "book-api"
