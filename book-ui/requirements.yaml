@@ -1,5 +1,5 @@
 dependencies:
   - name: book-ui
-    version: 0.0.10
+    version: 0.0.11
     repository: >-
       https://artifactory-tools.appdev-cloudnative-ocp43-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/artifactory/generic-local/appdev-cloudnative/
