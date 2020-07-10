@@ -3,8 +3,6 @@
 # Declare variables to be passed into your templates.
 global: {}
 
-#serviceUrl: "book-api.rail-ticket-dev:80"
-
 replicaCount: 1
 
 image:
@@ -41,7 +39,7 @@ vcsInfo:
   repoUrl: ""
   branch: ""
 
-partOf: "rail-ticket-dev"
+partOf: ""
 
 connectsTo: "book-api"
 
