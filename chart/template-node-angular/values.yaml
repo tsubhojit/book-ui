@@ -3,6 +3,8 @@
 # Declare variables to be passed into your templates.
 global: {}
 
+apiHost: "book-api"
+
 replicaCount: 1
 
 image:
