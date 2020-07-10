@@ -11,8 +11,8 @@ metadata:
     app.openshift.io/connects-to: {{ .Values.connectsTo }}
   {{- end }}
   labels:
-    app.kubernetes.io/name: {{ include "starter-kit.name" . }}
-    helm.sh/chart: {{ include "starter-kit.chart" . }}
+    app.kubernetes.io/name: {{ include "starter-kit-chart.name" . }}
+    helm.sh/chart: {{ include "starter-kit-chart.chart" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
     app: {{ .Release.Name }}
     {{- if .Values.partOf }}
