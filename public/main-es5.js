@@ -1575,8 +1575,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       function ApiService(httpClient) {
         _classCallCheck(this, ApiService);
 
-        this.httpClient = httpClient;
-        this.API_URL = 'https://book-api-rail-ticket-dev.appdev-cloudnative-ocp43-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud';
+        this.httpClient = httpClient; //API_URL = 'https://book-api-rail-ticket-dev.appdev-cloudnative-ocp43-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud';
+
+        this.API_URL = 'http://istio-ingressgateway-openshift.appdev-cloudnative-ocp43-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud';
       }
 
       _createClass(ApiService, [{
